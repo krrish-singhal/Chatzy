@@ -20,7 +20,7 @@
     <script src="/socket.io/socket.io.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const socket = io();
+            const socket = io("https://chatzy.onrender.com");
             const sendBtn = document.getElementById("sendBtn");
             const messageInput = document.getElementById("message");
             const allMessages = document.getElementById("messages");
